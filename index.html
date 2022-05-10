@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>CODER HOUSE // AGENDA DE EVENTOS</h2>
+
+    <!-- Formulario para toma de datos del evento -->
+    <form id="evento">
+        <label for="titulo"> TITULO DEL EVENTO: </label></br>
+        <input type="text" id="titulo"></br>
+        </br>
+        <label for="fecha"></label> FECHA:</br>
+        <input type="date" id="fecha"></br>
+        </br>
+        <label for="hora"></label>HORA:</br>
+        <input type="time" id="hora"></br>
+        </br>
+        <label for="invitados"></label> INVITADOS: </br>
+        <input type="text" id="invitado"> <button id="agregarInv"> + </button></br>
+        </br>
+        </br>
+        <button type="submit"> CARGAR </button>
+    </form>
+
+    <!-- DIV para imprimir los eventos cargados -->
+    <div id="eventoCargado">
+    </div>
+
+    <script src="./index.js">
+    </script>
+</body>
+
+</html>
